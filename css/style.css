@@ -13,9 +13,12 @@ general
 	display: block;
 	clear: both;
 }
-body {
-	background: url(../img/Group-3-copy1.png), no-repeat;
+.wrapper {
+	max-width: 850px;
+	margin: 0 auto;
+	background: url(../img/main-bg.jpg)no-repeat center;
 	background-size: cover;
+	padding: 100px 50px;
 }
 
 /*************
@@ -23,7 +26,7 @@ body {
 ********/
 
 .product-card {
-	max-width: 850px;
+	max-width: 687px;
 	margin: 0 auto;
 	padding: 0 15px;
 	box-shadow: 0 0 65px rgba(0, 0, 0, 0.82);
@@ -116,7 +119,6 @@ product-info
 	font-size: 24px;
 	font-weight: 100;
 	line-height: 26px;
-	
 }
 .product-info__subtitle {
 	opacity: 0.54;
@@ -147,30 +149,12 @@ product-info
 	color: #9da1a6;
 }
 
-/****************
-btns
-************/
-.btns {
-	margin-bottom: 30px;
-}
-.btns__left {
-	float: left;
-	position: relative;
-	
-}
-.btn {
-	padding: 11px 29px 11px 13px;
-	border: 1px solid #ffffff;
-	background-color: #111a28;
-	opacity: 0.26;
-	color: #e1e1e1;
-	font-family: "Museo Sans Rounded";
-	font-size: 14px;
-	font-weight: 100;
-	line-height: 18px;
-	position: relative;
-	margin-right: 2px;
-}
+/*****
+form
+**********/
+
+
+/*
 .btn:after {
 	width: 12px;
 	height: 7px;
@@ -179,12 +163,40 @@ btns
 	position: absolute;
 	left: 44px;
 }
+*/
+
+.form_label-select {
+	width: 96px;
+	float: left;
+	border: 1px solid #ffffff;
+	background-color: #111a28;
+	opacity: 0.26;
+	color: #e1e1e1;
+	font-size: 14px;
+	font-weight: 100;
+	line-height: 18px;
+	margin-right: 3px;
+	margin-bottom: 29px;
+	padding: 5px 15px;
+	position: relative;
+	cursor: pointer;
+}
+.form__select {
+	position: absolute;
+	left: 45px;
+	
+}
+
+/****************
+btns
+************/
+
 .add_btn {
 	max-width: 184px;
 	border: 1px solid #ffffff;
 	background-color: #4c525a;
 	opacity: 0.26;
-	color:#fff;
+	color: #fff;
 	padding: 12px 50px;
 	text-align: center;
 }
